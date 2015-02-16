@@ -24,6 +24,6 @@ public interface IHoverTankState {
 
     public void toGroundMode();
 
-    public void toFlyMode();
+    public void toHoverMode();
     
 }

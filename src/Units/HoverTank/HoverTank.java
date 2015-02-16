@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Units.HoverTank;
 
 import Units.HoverTank.states.HoverState;
@@ -93,7 +89,7 @@ public class HoverTank extends Unit{
     
     @Override
     public void toFlyMode(){
-        state.toFlyMode();
+        state.toHoverMode();
     }
     
     @Override

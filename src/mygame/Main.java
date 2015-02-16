@@ -17,8 +17,8 @@ import com.jme3.scene.Node;
 import com.jme3.texture.Texture;
 
 /**
- * test
- * @author normenhansen
+ * State pattern test
+ * @author jan
  */
 public class Main extends SimpleApplication {
     private static int playFieldsX;

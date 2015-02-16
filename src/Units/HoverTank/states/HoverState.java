@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Units.HoverTank.states;
 
 import Units.HoverTank.HoverTank;
@@ -49,7 +45,7 @@ public class HoverState implements IHoverTankState {
     }
 
     @Override
-    public void toFlyMode(){
+    public void toHoverMode(){
         System.out.println("Already in Fly-Mode");
     }
     
